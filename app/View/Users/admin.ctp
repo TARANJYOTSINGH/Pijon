@@ -1,4 +1,5 @@
 <!--  written by Taranjyot Singh Multani -->
+<!-- Admin page for all the users -->
 <h1><strong>Users of Pijon Box</strong></h1>
 <table>
     <tr>
@@ -8,7 +9,7 @@
         <th>Email</th>
     </tr>
 
-    <!-- Here is where we loop through our $posts array, printing out post info -->
+    <!-- Here is where we loop through our $users array, printing out users info -->
     <?php $sr_no=1;  ?>
     <?php foreach ($users as $user): ?>
     <tr>

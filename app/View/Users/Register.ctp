@@ -1,3 +1,4 @@
+<!-- Register page for registering new users -->
 <h2><?php echo __('Register'); ?></h2>
 <?php
 echo $this->Form->create('User');

@@ -3,6 +3,7 @@ App::uses('AppModel', 'Model');
 App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 
 class User extends AppModel {
+	//Users model and validation for different text fields
 	public $validate = array(
 	'firstname' => array(
 		'required' => array(
